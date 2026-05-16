@@ -1,7 +1,7 @@
 import logo from "../assets/logo";
 
 const blogData = {
-  name: "Underreacted",
+  name: "Robert's React Blog",
   image: logo,
   about: "A blog about learning React",
   posts: [
@@ -16,7 +16,7 @@ const blogData = {
       id: 2,
       title: "React Data Flow",
       date: "December 11, 2020",
-      preview: "Passing props is never passé",
+      preview: "Passing props is never passés",
       minutes: 15,
     },
     {
@@ -29,3 +29,4 @@ const blogData = {
 };
 
 export default blogData;
+//exports a JavaScript object named blogData that contains information about a blog, including its name, image, about section, and an array of posts. Each post is an object with properties such as id, title, date, preview, and minutes.
